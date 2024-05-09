@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PicoHook", "PicoHook\PicoHook.vcxproj", "{8081BFD5-6860-4182-BFD8-4879600865EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PicoClient", "PicoClient\PicoClient.vcxproj", "{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{886E0879-56A9-4D3D-A2E4-56D24E0E51D0}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|ARM64.Build.0 = Debug|ARM64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|x64.ActiveCfg = Debug|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|x64.Build.0 = Debug|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|x64.Deploy.0 = Debug|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|x86.ActiveCfg = Debug|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|x86.Build.0 = Debug|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Debug|x86.Deploy.0 = Debug|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|ARM64.ActiveCfg = Release|ARM64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|ARM64.Build.0 = Release|ARM64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|ARM64.Deploy.0 = Release|ARM64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|x64.ActiveCfg = Release|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|x64.Build.0 = Release|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|x64.Deploy.0 = Release|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|x86.ActiveCfg = Release|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|x86.Build.0 = Release|x64
+		{8081BFD5-6860-4182-BFD8-4879600865EE}.Release|x86.Deploy.0 = Release|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Debug|ARM64.ActiveCfg = Debug|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Debug|ARM64.Build.0 = Debug|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Debug|x64.ActiveCfg = Debug|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Debug|x64.Build.0 = Debug|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Debug|x86.Build.0 = Debug|Win32
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Release|ARM64.ActiveCfg = Release|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Release|ARM64.Build.0 = Release|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Release|x64.ActiveCfg = Release|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Release|x64.Build.0 = Release|x64
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Release|x86.ActiveCfg = Release|Win32
+		{CC6F2C0D-A604-418C-A6B0-A07DBF3F71A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0A4ACA0-38E8-435D-91E5-3A8D764B165B}
+	EndGlobalSection
+EndGlobal
